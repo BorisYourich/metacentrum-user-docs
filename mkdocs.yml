@@ -21,6 +21,30 @@ theme:
     text: 'Ubuntu'
     code: 'Source Code Pro'
 
+plugins:
+  - monorepo
+  - i18n:
+      default_language: en
+      material_alternate: true
+      languages:
+        en:
+          name: English
+          build: true
+        cs:
+          name: Česky
+          build: true
+      nav_translations:
+        cs:
+          'Access': Zřízení služby
+          'Basics': Základní pojmy
+          'Data': Práce s daty
+          'Software': Software
+          'Advanced': Pokročilé návody
+          'Troubleshooting': Troubleshooting
+          'User support': Uživatelská podpora  
+          'Tutorials': Návody a prezentace
+
+
 markdown_extensions:
   - attr_list
   - md_in_html
