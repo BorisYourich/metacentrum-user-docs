@@ -1,4 +1,9 @@
-# Welcome
+---
+languages:
+  - en
+  - cs
+---
+# Vítejte
 
 
 Toto je titulní stránka dokumentace MetaCentra.
